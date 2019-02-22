@@ -2,7 +2,7 @@ import json
 
 import csv
 
-with open ('reuslts.json', 'r') as f:
+with open ('response.json', 'r') as f:
     sessions_dict = json.load(f)
 
 ses_data = sessions_dict[0]['sessions']
